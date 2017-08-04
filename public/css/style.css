@@ -1,0 +1,331 @@
+/*
+--CSS full screen
+*/
+html, body {
+	height: 100%;
+    margin: 0;
+}
+#wrapper {
+	min-height: 100%; 
+}
+
+/*
+--CSS section header
+*/
+.section_header{
+
+}
+
+/*
+--CSS header top
+*/
+
+.header_top{
+	    background: -webkit-linear-gradient(45deg, rgba(115,230,170,1) , rgb(8,203,249) 100%);
+}
+
+.header_top_logo{
+	float: left;
+	margin-left: 20px;
+}
+.header_top_menu{
+	margin:10px;
+}
+.header_top_menu ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.header_top_menu li{
+	display: table-cell;
+    text-align: center;
+    padding-right: 1px;
+    border-radius: 5px;
+    border: 1px solid green;
+    /*margin: 0px 10px 0px 10px;*/
+}
+.header_top_menu li a{
+	display: block;
+    color: #666;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+
+    text-align: center;
+}
+.header_top_menu li a:hover:not(.active){
+	background-color: #ddd;
+	border-radius: 5px;
+}
+
+/*
+--CSS header main
+*/
+.header_main{
+	background: -webkit-linear-gradient(45deg, rgba(115,230,170,1) , rgb(8,203,249) 100%);
+}
+.header_main_menu{
+    /*background-color: #f3f3f3;*/
+  
+    top: 0;
+    left:20%;
+}
+.chuchay{
+	padding: 12px;
+}
+.box_chuchay{
+	border: 1px solid green;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+.header_main_menu ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.header_main_menu li{
+	float:left;
+	border-radius: 5px;
+    border: 1px solid green;
+    margin: 10px;
+}
+.header_main_menu li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 6px 20px;
+    text-decoration: none;
+}
+
+.header_main_menu li a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.header_main_menu li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+.stylish-input-group{
+	padding: 10px 20px;
+}
+.header_main_menu .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+	border: 1px solid green;
+	border-radius: 5px;
+	padding: 10px;
+}
+.header_main_menu button{
+	border:0;
+    background:transparent;
+}
+/*
+--CSS slider main
+*/
+.slider{
+	position: relative;
+	margin:10px;
+}
+
+/*
+--CSS product
+*/
+
+.product_img1{
+	margin-bottom: 5px;
+}
+.product_img2{
+	margin-top: 15px;
+}
+/*
+--CSS footer
+*/
+.section_footer{
+	position: relative;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+}
+.footer{
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+}
+.footer_top{
+	bottom: 0;
+	left: 0;
+}
+.fa-facebook{
+    color:#3b5998;
+}
+.fa-linkedin{
+    color:#0077B5;
+}
+.fa-twitter{
+    color:#4099FF;
+}
+.fa-google{
+    color:#d34836;
+}
+.bg-primary {
+ background-color: #000 !important;
+}
+
+.bg-circle
+{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  padding: 14px 4px;
+  color: #ececec;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.bg-circle-outline
+{
+  width: 50px;
+  height: 50px;
+  color:smoke;
+  padding: 8px 2px;
+  border: 2px solid;
+  border-color: smoke;
+  border-radius: 50%;
+  float: left;
+}
+
+
+.bg-circle a, a:hover, .media a:focus
+{
+  text-decoration: none !important;
+  outline: none;
+  color: #ececec;
+}
+.bg-circle-outline a, a:hover, .media a:focus
+{
+  text-decoration: none !important;
+  outline: none;
+  color: #ececec;
+}
+.footer {
+	background: #586D74;
+	height: auto;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	border-bottom: 1px solid #BAC1C8;
+	color: #54697E;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #7F8C8D;
+}
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer a {
+	color: #78828D
+}
+.diachi{
+	color:white;
+}
+/*
+--CSS sản phẩm slider
+*/
+.iteam_slider{
+	margin: 5px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+.iteam{
+	padding: 20px;
+}
+.slick-prev{
+	position: absolute;
+    left: 0;
+    top: 40%;
+    z-index: 99;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+.slick-arrow:hover{
+	border:1px solid white;
+	background-color:white;
+}
+.slick-next{
+	position: absolute;
+    right: 0;
+    top: 40%;
+    z-index: 99;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+.iteam button {
+	padding: 5px;
+	margin: 10px;
+	border: 1px solid green;
+	border-radius: 5px;
+}
+.content_product .slick-dots{
+	display: none !important;
+}
+.content_product .slick-center{
+	border: 1px solid blue;
+}
+/*
+--CSS box thử đồ
+*/
+.box_thu{
+	border: 1px solid;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+.box_ao{
+	padding: 5px;
+	z-index: 1;
+}
+.box_quan{
+	padding: 5px;
+	z-index: 2;
+	margin-top: -30px;
+}
+.box_giay{
+	padding: 5px;
+	z-index: 3;
+	margin-top: -30px;
+}
+.btn_giaodich{
+	margin: 10px;
+	text-align: center;
+}
+
+/*
+--CSS section content
+*/
+.content{
+	margin:10px 0 10px 0;
+}
