@@ -4,6 +4,7 @@
 html, body {
 	height: 100%;
     margin: 0;
+    background-image: url('../../image/bg.jpg');
 }
 #wrapper {
 	min-height: 100%; 
@@ -12,8 +13,12 @@ html, body {
 /*
 --CSS section header
 */
-.section_header{
-
+.box_menu{
+	z-index: 100000;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+	position: relative;
+	top: 0;
+  	left: 0;
 }
 
 /*
@@ -21,12 +26,30 @@ html, body {
 */
 
 .header_top{
-	    background: -webkit-linear-gradient(45deg, rgba(115,230,170,1) , rgb(8,203,249) 100%);
+	/*background: -webkit-linear-gradient(45deg, rgba(115,230,170,1) , rgb(8,203,249) 100%);*/
 }
-
+.box_logo{
+	background-color: #183544;
+}
+.box_menu{
+	background-color: #F1F1F1;
+}
 .header_top_logo{
-	float: left;
-	margin-left: 20px;
+	margin: 10px;
+}
+.header_top_logo .search{
+	margin-top:20px;
+}
+.header_top_logo .chinhhang{
+	margin-top: 10px;
+}
+.search .search_input{
+	margin: 0px;
+	padding: 0px;
+}
+.search .button{
+	margin: 0px;
+	padding: 0px;
 }
 .header_top_menu{
 	margin:10px;
@@ -43,7 +66,7 @@ html, body {
     padding-right: 1px;
     border-radius: 5px;
     border: 1px solid green;
-    /*margin: 0px 10px 0px 10px;*/
+    margin: 10px;
 }
 .header_top_menu li a{
 	display: block;
@@ -59,70 +82,6 @@ html, body {
 	border-radius: 5px;
 }
 
-/*
---CSS header main
-*/
-.header_main{
-	background: -webkit-linear-gradient(45deg, rgba(115,230,170,1) , rgb(8,203,249) 100%);
-}
-.header_main_menu{
-    /*background-color: #f3f3f3;*/
-  
-    top: 0;
-    left:20%;
-}
-.chuchay{
-	padding: 12px;
-}
-.box_chuchay{
-	border: 1px solid green;
-	margin-left: 10px;
-	border-radius: 5px;
-}
-.header_main_menu ul{
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-.header_main_menu li{
-	float:left;
-	border-radius: 5px;
-    border: 1px solid green;
-    margin: 10px;
-}
-.header_main_menu li a {
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 6px 20px;
-    text-decoration: none;
-}
-
-.header_main_menu li a:hover:not(.active) {
-    background-color: #ddd;
-    border-radius: 5px;
-}
-
-.header_main_menu li a.active {
-    color: white;
-    background-color: #4CAF50;
-}
-.stylish-input-group{
-	padding: 10px 20px;
-}
-.header_main_menu .form-control{
-	border-right:0; 
-	box-shadow:0 0 0; 
-	border-color:#ccc;
-	border: 1px solid green;
-	border-radius: 5px;
-	padding: 10px;
-}
-.header_main_menu button{
-	border:0;
-    background:transparent;
-}
 /*
 --CSS slider main
 */
@@ -155,6 +114,12 @@ html, body {
   	right: 0;
   	bottom: 0;
   	left: 0;
+}
+.footer p{
+	color: white;
+}
+.footer h2{
+	color: white;
 }
 .footer_top{
 	bottom: 0;
@@ -256,10 +221,32 @@ html, body {
 /*
 --CSS sản phẩm slider
 */
+.sanphamhot .iteam{
+	border: 1px solid green;
+	border-radius: 5px;
+}
+.sanphamhot{
+	background-color: #F5F5F5;
+}
+.thoitrangnam{
+	background-color: #F5F5F5;
+}
+.thoitrangnam .iteam{
+	border: 1px solid green;
+	border-radius: 5px;
+}
+.thoitrangnu{
+	background-color: #F5F5F5;
+}
+.thoitrangnu .iteam{
+	border: 1px solid green;
+	border-radius: 5px;
+}
 .iteam_slider{
 	margin: 5px;
 	border: 1px solid black;
 	border-radius: 4px;
+	
 }
 .iteam{
 	padding: 20px;
@@ -328,4 +315,7 @@ html, body {
 */
 .content{
 	margin:10px 0 10px 0;
+}
+.map{
+	margin-top: 10px;
 }

@@ -4,7 +4,7 @@
 <section class="content_dangnhap">
 	<div class="container-fluid">
 		<div class="col-md-6 col-md-offset-3">
-			<h2><a href="/dangnhap">Đăng nhập</a> | <a href="/dangky">Đăng ký</a></h2>
+			<h2><a href="/dang-nhap">Đăng nhập</a> | <a href="/dang-ky">Đăng ký</a></h2>
 		</div>
 		<div class="col-md-6 col-md-offset-3 box_dangnhap">
 			<div class="col-md-6">
@@ -36,8 +36,7 @@
 	    					<input type="email" class="form-control" id="email" placeholder="Nhập email của bạn">
 	  					</div>
 	  					<div class="form-group">
-	  						<label>Mã xác nhận</label>
-	    					<input type="text" class="form-control" id="sodienthoai" placeholder="Nhập mã xác nhận">
+	  						<div class="g-recaptcha" data-sitekey="6LeyvisUAAAAADtSIaq5jPzz4nHzVhjo2wxkXmkc"></div>
 	  					</div>
 	  					<div class="form-group">
 	  						<p><input type="checkbox" name="chapnhandieukhoan"> Tôi chấp nhận những điều khoản của shop.</p>

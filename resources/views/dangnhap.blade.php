@@ -4,7 +4,7 @@
 <section class="content_dangnhap">
 	<div class="container-fluid">
 		<div class="col-md-6 col-md-offset-3">
-			<h2><a href="/dangnhap">Đăng nhập</a> | <a href="/dangky">Đăng ký</a></h2>
+			<h2><a href="/dang-nhap">Đăng nhập</a> | <a href="/dang-ky">Đăng ký</a></h2>
 		</div>
 		<div class="col-md-6 col-md-offset-3 box_dangnhap">
 			<div class="col-md-6">

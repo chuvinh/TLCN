@@ -13,51 +13,39 @@
     </head>
     <body>
         <section class="section_header">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12 header_top">
-                        <div class="col-md-3">
-                            <div class="header_top_logo">
-                                <img src="{{ asset('image/logo.png') }}" >
+            <div class="header_top">
+                <div class="container-fluid box_logo">
+                    <div class="header_top_logo">
+                        <div class="col-md-12">
+                            <div class="col-md-3 logo">
+                                <a href="/"><img src="{{ asset('image/logo.png') }}"></a>
                             </div>
-                        </div>
-                        <div class="col-md-9">
-                            <div class="header_top_menu">
-                                <ul>
-                                    <li><a href="/donam"><span class="glyphicon glyphicon-list-alt"></span> Đồ Nam</a></li>
-                                    <li><a href="/donu"><span class="glyphicon glyphicon-list-alt"></span> Đồ Nữ</a></li>
-                                    <li><a href="/sale"><span class="glyphicon glyphicon-gift"></span> Hàng đang sale</a></li>
-                                    <li><a href="/huongdan"><span class="glyphicon glyphicon-pencil"></span> Hướng dẫn mua hàng</a></li>
-                                    <li><a href="/lienhe"><span class="glyphicon glyphicon-inbox"></span> Liên hệ</a></li>
-                                </ul>
+                            <div class="col-md-6 search">
+                                <div class="col-md-10 search_input"><input type="text" name="search" class="form-control input-sm"></div>
+                                <div class="col-md-2 button"><button class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button></div>
                             </div>
-                        </div>
-                    </div>  
-                    <div class="col-md-12 header_main">
-                        <div class="col-md-6 chuchay">
-                            <div class="box_chuchay">
-                                <marquee>Chào mừng bạn đến với shop thời trang của chúng tôi. Chúc bạn một ngày vui vẻ.</marquee>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="header_main_menu">
-                                <ul>
-                                    <li><a href="/dangnhap"><span class="glyphicon glyphicon-log-in"></span> Đăng nhập</a></li>
-                                    <li><a href="/dangky"><span class="glyphicon glyphicon-edit"></span> Đăng ký</a></li>
-                                    <li><a href="/giohang"><span class="glyphicon glyphicon-shopping-cart"></span> Giỏ hàng</a></li>
-                                    <div class="col-sm-4 col-md-4 input-group stylish-input-group">
-                                        <input type="text" class="form-control"  placeholder="Search">
-                                        <span class="input-group-addon">
-                                            <button type="submit">
-                                                <span class="glyphicon glyphicon-search"></span>
-                                            </button>  
-                                        </span>
-                                    </div>
-                                </ul>
+                            <div class="col-md-3 chinhhang">
+                                <img src="{{ asset('image/100_chinh_hang.png') }}">
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="container-fluid box_menu">
+                    <div class="header_top_menu">
+                        <nav class="navbar">
+                            <ul class="nav navbar-nav ">
+                                <li><a href="/do-nam"><span class="glyphicon glyphicon-list-alt"></span> Thời trang nam</a></li>
+                                <li><a href="do-nu"><span class="glyphicon glyphicon-list-alt"></span> Thời trang nữ</a></li>
+                                <li><a href="/sale"><span class="glyphicon glyphicon-gift"></span> Hàng đang sale</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-pencil"></span> Hướng dẫn mua hàng</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-inbox"></span> Liên hệ</a></li>
+                                <li><a href="/dang-nhap"><span class="glyphicon glyphicon-log-in"></span> Đăng nhập</a></li>
+                                <li><a href="/dang-ky"><span class="glyphicon glyphicon-edit"></span> Đăng ký</a></li>
+                                <li><a href="/gio-hang"><span class="glyphicon glyphicon-shopping-cart"></span> Giỏ hàng</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>  
             </div>
         </section>
         @yield('slider')
@@ -65,40 +53,25 @@
         <section class="section_footer">
             <div class="footer">
                 <div class="container-fluid py-3">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <div class="row py-0">
-                                    <div class="col-sm-1 hidden-md-down" style="padding: 5px">
-                                        <a class="bg-circle bg-info" href="#">
-                                            <img src="{{ asset('image/logo.png') }}" >
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-11 text-white">
-                                        <div class="diachi">
-                                            <h4>  Liên hệ: </h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-5" style="margin-top: 7px">
-                                <div class="d-inline-block">
-                                    <div class="bg-circle-outline d-inline-block" style="background-color:#3b5998">
-                                        <a href="https://www.facebook.com/"><span class="fa fa-facebook"></span>
-                                        </a>
-                                    </div>
-                                    <div class="bg-circle-outline d-inline-block" style="background-color:#4099FF">
-                                        <a href="https://twitter.com/">
-                                            <i class="fa fa-2x fa-fw fa-twitter text-white"></i>
-                                        </a>
-                                    </div>
-                                    <div class="bg-circle-outline d-inline-block" style="background-color:#d34836">
-                                        <a href="https://www.google.com/">
-                                            <i class="fa fa-2x fa-fw fa-google text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="col-md-10">
+                        <div class="col-md-4">
+                            <h2>Liên hệ với shop</h2>
+                            <p>Thứ 2 - Chủ Nhật: 7h-21h</p>
+                            <p></p>
                         </div>
+                        <div class="col-md-4">
+                            <h2>Liên hệ với shop</h2>
+                            <p>Thứ 2 - Chủ Nhật: 7h-21h</p>
+                            <p></p>
+                        </div>
+                        <div class="col-md-4">
+                            <h2>Liên hệ với shop</h2>
+                            <p>Thứ 2 - Chủ Nhật: 7h-21h</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <p><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FThu%E1%BB%91c-%C4%90%E1%BA%B7t-Tr%E1%BB%8B-M%E1%BB%A5n-1391039040953800%2F&tabs&width=200&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="200" height="200" style="border:none;overflow:hidden;margin: 10px;" scrolling="no" frameborder="0" allowTransparency="true"></iframe></p>
                     </div>
                 </div>
             </div>
@@ -107,5 +80,6 @@
     <script src="{{ asset('jquery/jquery.min.js')}}"></script>
     <script src="{{ asset('js/product_slider.js')}}"></script>
     <script src="{{ asset('slick/slick.min.js')}}"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     </body>
 </html>

@@ -15,12 +15,15 @@ Route::get('/', function () {
     return view('trangchu');
 });
 Route::get('controller','MyFirstController@getController');
-Route::get('sanpham',function(){
+Route::get('san-pham',function(){
 	return view('sanpham');
 });
-Route::get('dangnhap',function(){
+Route::get('dang-nhap',function(){
 	return view('dangnhap');
 });
-Route::get('dangky',function(){
+Route::get('dang-ky',function(){
 	return view('dangky');
+});
+Route::get('do-nam',function(){
+	return view('donam');
 });
