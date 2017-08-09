@@ -1,4 +1,4 @@
-@extends('welcome')
+@extends('menu')
 @section('slider')
 <section class="slider">
 	<div class="container-fluid">
@@ -15,22 +15,6 @@
 						<img src="{{ asset('image/slider-05.jpg')}}" alt="" style="width:100%;" class="img-rounded">
 					</div>
 			</div>
-			<div class="col-md-4 product">
-				<div class="product_img1">
-					<div class="product1">
-						<div class="">
-							<img src="{{ asset('image/slider-05.jpg')}}" style="width: 100%" class="img-rounded">
-						</div>
-					</div>
-				</div>
-				<div class="product_img2">
-					<div class="product1">
-						<div class="">
-							<img src="{{ asset('image/slider-05.jpg')}}" style="width: 100%" class="img-rounded">
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 </section>
@@ -40,28 +24,28 @@
 		<div><h2>Hot trong ngày</h2><hr></div>
 			<div class="col-md-3">
 				<div class="iteam">
-					<img src="{{ asset('image/slider-05.jpg')}}" style="width: 100%">
+					<img src="{{ asset('image/baynhe.png')}}" style="width: 100%">
 					<button class="btn-default">Thêm vào giỏ</button>
 					<button class="btn-default">Mặc thử</button>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="iteam">
-					<img src="{{ asset('image/slider-05.jpg')}}" style="width: 100%">
+					<img src="{{ asset('image/ha_noi.png')}}" style="width: 100%">
 					<button class="btn-default">Thêm vào giỏ</button>
 					<button class="btn-default">Mặc thử</button>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="iteam">
-					<img src="{{ asset('image/slider-05.jpg')}}" style="width: 100%">
+					<img src="{{ asset('image/the_gioi.png')}}" style="width: 100%">
 					<button class="btn-default">Thêm vào giỏ</button>
 					<button class="btn-default">Mặc thử</button>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="iteam">
-					<img src="{{ asset('image/slider-05.jpg')}}" style="width: 100%">
+					<img src="{{ asset('image/tu_do.png')}}" style="width: 100%">
 					<button class="btn-default">Thêm vào giỏ</button>
 					<button class="btn-default">Mặc thử</button>
 				</div>
@@ -73,28 +57,28 @@
 		<div><h2>Thời trang nam</h2><hr></div>
 			<div class="col-md-3">
 				<div class="iteam">
-					<img src="{{ asset('image/slider-05.jpg')}}" style="width: 100%">
+					<img src="{{ asset('image/bach_tuoc.png')}}" style="width: 100%">
 					<button class="btn-default">Thêm vào giỏ</button>
 					<button class="btn-default">Mặc thử</button>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="iteam">
-					<img src="{{ asset('image/slider-05.jpg')}}" style="width: 100%">
+					<img src="{{ asset('image/m_cao_hon_t.png')}}" style="width: 100%">
 					<button class="btn-default">Thêm vào giỏ</button>
 					<button class="btn-default">Mặc thử</button>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="iteam">
-					<img src="{{ asset('image/slider-05.jpg')}}" style="width: 100%">
+					<img src="{{ asset('image/nice_day.png')}}" style="width: 100%">
 					<button class="btn-default">Thêm vào giỏ</button>
 					<button class="btn-default">Mặc thử</button>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="iteam">
-					<img src="{{ asset('image/slider-05.jpg')}}" style="width: 100%">
+					<img src="{{ asset('image/raglan.png')}}" style="width: 100%">
 					<button class="btn-default">Thêm vào giỏ</button>
 					<button class="btn-default">Mặc thử</button>
 				</div>
@@ -106,28 +90,28 @@
 		<div><h2>Thời trang nữ</h2><hr></div>
 			<div class="col-md-3">
 				<div class="iteam">
-					<img src="{{ asset('image/slider-05.jpg')}}" style="width: 100%">
+					<img src="{{ asset('image/tron_do.png')}}" style="width: 100%">
 					<button class="btn-default">Thêm vào giỏ</button>
 					<button class="btn-default">Mặc thử</button>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="iteam">
-					<img src="{{ asset('image/slider-05.jpg')}}" style="width: 100%">
+					<img src="{{ asset('image/thun_tay_dai.png')}}" style="width: 100%">
 					<button class="btn-default">Thêm vào giỏ</button>
 					<button class="btn-default">Mặc thử</button>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="iteam">
-					<img src="{{ asset('image/slider-05.jpg')}}" style="width: 100%">
+					<img src="{{ asset('image/suon_bo_nuong.png')}}" style="width: 100%">
 					<button class="btn-default">Thêm vào giỏ</button>
 					<button class="btn-default">Mặc thử</button>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="iteam">
-					<img src="{{ asset('image/slider-05.jpg')}}" style="width: 100%">
+					<img src="{{ asset('image/pizza.png')}}" style="width: 100%">
 					<button class="btn-default">Thêm vào giỏ</button>
 					<button class="btn-default">Mặc thử</button>
 				</div>

@@ -1,15 +1,7 @@
 window.onload=function(){
-  	/*$('.product_slider').slick({
-  		slidesToShow: 3,
-  		slidesToScroll: 1,
-  		prevArrow:'<button type="button" class="slick-prev"><b><</b></button>',
-  		nextArrow:'<button type="button" class="slick-next"><b>></b></button>',
-	});*/
 	$('.slider_left').slick({
 		autoplay: true,
-  		autoplaySpeed: 2000,
-		prevArrow:'<button type="button" class="slick-prev"><b><</b></button>',
-  		nextArrow:'<button type="button" class="slick-next"><b>></b></button>',
+  	autoplaySpeed: 2000,
 	});
 
 	$('.box_ao').slick({

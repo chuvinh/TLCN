@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('css/login.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/quanly.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('bootstrap/css/bootstrap.min.css')}}">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="{{ asset('slick/slick.css')}}"/>
@@ -30,22 +31,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid box_menu">
-                    <div class="header_top_menu">
-                        <nav class="navbar">
-                            <ul class="nav navbar-nav ">
-                                <li><a href="/do-nam"><span class="glyphicon glyphicon-list-alt"></span> Thời trang nam</a></li>
-                                <li><a href="do-nu"><span class="glyphicon glyphicon-list-alt"></span> Thời trang nữ</a></li>
-                                <li><a href="/sale"><span class="glyphicon glyphicon-gift"></span> Hàng đang sale</a></li>
-                                <li><a href="#"><span class="glyphicon glyphicon-pencil"></span> Hướng dẫn mua hàng</a></li>
-                                <li><a href="#"><span class="glyphicon glyphicon-inbox"></span> Liên hệ</a></li>
-                                <li><a href="/dang-nhap"><span class="glyphicon glyphicon-log-in"></span> Đăng nhập</a></li>
-                                <li><a href="/dang-ky"><span class="glyphicon glyphicon-edit"></span> Đăng ký</a></li>
-                                <li><a href="/gio-hang"><span class="glyphicon glyphicon-shopping-cart"></span> Giỏ hàng</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>  
+                @yield('menu')
             </div>
         </section>
         @yield('slider')

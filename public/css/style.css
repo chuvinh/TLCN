@@ -110,6 +110,7 @@ html, body {
   	left: 0;
 }
 .footer{
+	background-color: #183544 !important;
 	position: absolute;
   	right: 0;
   	bottom: 0;
@@ -224,6 +225,7 @@ html, body {
 .sanphamhot .iteam{
 	border: 1px solid green;
 	border-radius: 5px;
+	background-color: white;
 }
 .sanphamhot{
 	background-color: #F5F5F5;
@@ -234,13 +236,16 @@ html, body {
 .thoitrangnam .iteam{
 	border: 1px solid green;
 	border-radius: 5px;
+	background-color: white;
 }
 .thoitrangnu{
 	background-color: #F5F5F5;
+	padding-bottom: 10px;
 }
 .thoitrangnu .iteam{
 	border: 1px solid green;
 	border-radius: 5px;
+	background-color: white;
 }
 .iteam_slider{
 	margin: 5px;
@@ -250,6 +255,9 @@ html, body {
 }
 .iteam{
 	padding: 20px;
+}
+.slider_left .slick-arrow{
+	display: none !important;
 }
 .slick-prev{
 	position: absolute;

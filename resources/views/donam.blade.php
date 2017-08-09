@@ -1,9 +1,9 @@
-@extends('welcome')
+@extends('menu')
 @section('title',' | Đồ nam')
 @section('content')
 <section class="menu_loc">
 	<div class="container-fluid">
-		<div></div>
+		<dvi></div>
 	</div>
 </section>
 <section class="content">
